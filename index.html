@@ -178,40 +178,50 @@
           </p>
         </section>
       </div>
+      <!-- Servicios -->
+
+      <section>
+        <h2>Contacto</h2>
+        <!--Aqui se agregó el formulario -->
+        <form class="formulario">
+          <!--Se declara el Fieldset-->
+          <fieldset>
+            <!--Se declara la etiqueta legend-->
+            <legend>Contáctame llenando todos los campos</legend>
+            <div class="contenedor-campos">
+              <div class="campo">
+                <label for="">Nombre</label>
+                <input class="input-text" type="text" placeholder="Tu Nombre" />
+              </div>
+              <div class="campo">
+                <label for="">Telefono</label>
+                <input
+                  class="input-text"
+                  type="tel"
+                  placeholder="Tu Teléfono"
+                />
+              </div>
+              <div class="campo">
+                <label for="">Correo</label>
+                <input class="input-text" type="email" placeholder="Tu Email" />
+              </div>
+              <div class="campo">
+                <label for="">Mensaje</label>
+                <textarea class="input-text"></textarea>
+              </div>
+            </div>
+            <!-- Contenedor de los campos -->
+            <div class="alinear-derecha flex">
+              <!-- Input -->
+              <input class="boton w-sm-100" type="submit" value="Enviar" />
+            </div>
+
+            <!-- <button type="submit" value="enviar">Enviar</button> --><!--boton-->
+          </fieldset>
+        </form>
+      </section>
     </main>
-    <section>
-      <h2>Contacto</h2>
-      <!--Aqui se agregó el formulario -->
-      <form action="">
-        <!--Se declara el Fieldset-->
-        <fieldset>
-          <!--Se declara la etiqueta legend-->
-          <legend>Contáctame llenando todos los campos</legend>
-          <div>
-            <label for="">Nombre</label>
-            <input type="text" placeholder="Tu nombre" />
-          </div>
-          <div>
-            <label for="">Telefono</label>
-            <input type="tel" placeholder="Tu teléfono" />
-          </div>
-          <div>
-            <label for="">Correo</label>
-            <input type="email" placeholder="Tu email" />
-          </div>
-          <div>
-            <label for="">Mensaje</label>
-            <textarea></textarea>
-          </div>
-          <div>
-            <!-- Input -->
-            <input type="submit" value="Enviar" />
-          </div>
-          <!-- <button type="submit" value="enviar">Enviar</button> --><!--boton-->
-        </fieldset>
-      </form>
-    </section>
-    <footer>
+    <footer class="footer">
       <p>Todos los derechos reservados. Miguel Méndez Freelancer</p>
     </footer>
   </body>
