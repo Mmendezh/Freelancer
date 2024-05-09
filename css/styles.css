@@ -11,6 +11,14 @@
 html {
   font-size: 62.5%;
   box-sizing: border-box; /* Box Model Hack */
+  scroll-snap-type: y mandatory;
+}
+/* Scroll Snap */
+.servicios,
+.navegacion-principal,
+.formulario {
+  scroll-snap-align: center;
+  scroll-snap-stop: always;
 }
 *,
 *:before,
@@ -154,6 +162,7 @@ h3 {
   display: flex;
   align-items: flex-end;
 }
+
 /* Servicios */
 @media (min-width: 768px) {
   .servicios {
